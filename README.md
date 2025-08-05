@@ -11,11 +11,11 @@ Gelecek Yıl Maaşlarının Tahmini: Eğitilen modellerden biri (Doğrusal Regre
 
 Branş Bazında Maaş Değişiminin Görselleştirilmesi: Belirli branşlar (örneğin, Matematik Lise) için yıllara göre mevcut maaş, bir sonraki yılın beklenen maaşı ve modelin tahmin ettiği maaş arasındaki değişimi gösteren çizgi grafikleri oluşturulmuştur.
 
-Bu çalışma, mevcut verilere dayanarak öğretmen maaşlarındaki eğilimleri anlamak ve geleceğe yönelik olası senaryolar hakkında fikir edinmek için bir başlangıç noktası sunmaktadır.
+Çalışmam mevcut verilere dayanarak öğretmen maaşlarındaki eğilimleri anlamak ve geleceğe yönelik olası senaryolar hakkında fikir edinmek için bir başlangıç noktası sunmaktadır.
 
 ÖZET - SONUÇ
 
-Bu çalışmada İstanbulda özel kurumlarda öğretmenlik yapan öğretmenlerin telegram gruplarında 2021 - 2025 yılları arası kendi aralarında yaptıkları anketler sonucu birleştirilerek bir veriseti oluşturuldu. Verilerimiz 10 yıl öncesi tecrübeli ve 10 yıl üstü tecrübeli öğretmenlerin sayıları ve maaşları ortalamaları alınarak oluşturulduğundan bu veriler ortalama 10 yıllık tecrübeye sahip öğretmenlerin maaş tahmini yaptığını düşünmeliyiz.
+İstanbulda özel kurumlarda öğretmenlik yapan öğretmenlerin telegram gruplarında 2021 - 2025 yılları arası kendi aralarında yaptıkları anketler sonucu birleştirilerek bir veriseti oluşturuldu. Verilerimiz 10 yıl öncesi tecrübeli ve 10 yıl üstü tecrübeli öğretmenlerin sayıları ve maaşları ortalamaları alınarak oluşturulduğundan bu veriler ortalama 10 yıllık tecrübeye sahip öğretmenlerin maaş tahmini yaptığını düşünmeliyiz.
 
 Verisetimizde düzenlemeler yapılarak veriler, makine öğrenmesi modellerini karşılaştırarak en iyi performansı gösteren modeller belirlendi. Özellikle Random Forest ve KNN Regressor modellerinin yüksek R² skoru, modelin maaşlardaki değişimi iyi bir şekilde yakalayabildiği görülmektedir. Çalışmamda Random Forest modeli kullanarak gelecekteki öğretmen maaşlarını tahmin edildi. Elde edilen tablo ve grafikler, branş bazında maaş trendleri ve gelecek beklentileri hakkında değerli bilgiler sunmaktadır.
 
